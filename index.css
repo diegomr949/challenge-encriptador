@@ -1,0 +1,114 @@
+/* Estilos generales */
+
+body {
+    font-family: Inter, sans-serif; 
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h3 {
+    font-family: Montserrat, sans-serif; 
+    margin-bottom: 10px;
+}
+
+/* Estilos del header */
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 200px; 
+}
+
+/* Estilos del main */
+
+.seccion1,
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.area {
+    width: 400px; 
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.advertencia {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.contenedor-botones {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton-encriptar,
+.boton-desencriptar,
+.boton-copiar {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-encriptar,
+.boton-desencriptar {
+    margin: 0 5px;
+}
+
+/* Estilos del contenedor del detective */
+
+.contenedor-muneco,
+.contenedor-muneco-en {
+    margin-top: 20px;
+}
+
+.contenedor-h3,
+.contenedor-parrafo,
+.contenedor-resultado,
+.contenedor-copiar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ajustes-h3,
+.titulo-encriptado {
+    font-size: 18px;
+}
+
+.ajustes-parrafo {
+    font-size: 14px;
+    color: #999;
+}
+
+.texto-resultado {
+    width: 400px; 
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos del footer */
+
+.pie__pagina {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer__imagen {
+    width: 30px; /* Adjust image size as needed */
+    margin: 0 5px;
+}
